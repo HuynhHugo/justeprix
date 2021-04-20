@@ -59,8 +59,7 @@ class justprix():
         self.window.title("Juste prix")
         self.window.minsize(600, 400)
         self.window.maxsize(600, 400)
-        self.window.config(bg="#000")
-        self.window.iconbitmap("justeprix/ressources/Logo_Juste_Prix_2015.ico")
+        self.window.config(bg="#86FF84")
 
         self.widget()
 
@@ -75,16 +74,16 @@ class justprix():
         self.temps.set("Temps: 60s")
 
 
-        self.titre = tk.Label(self.window, text="Juste Prix", font=("Courrier",25), bg="#000", fg="#fff")
+        self.titre = tk.Label(self.window, text="Juste Prix", font=("Courrier",25), bg="#86FF84", fg="#000")
         self.titre.place(x= 230,y= 40)
 
-        self.tentative = tk.Label(self.window, textvariable=self.tentativevar , font=("Courrier",10), bg="#000", fg="#fff")
+        self.tentative = tk.Label(self.window, textvariable=self.tentativevar , font=("Courrier",10), bg="#86FF84", fg="#000")
         self.tentative.place(x= 510,y= 20)
 
-        self.seconde = tk.Label(self.window, textvariable=self.temps, font=("Courrier",10), bg="#000", fg="#fff")
+        self.seconde = tk.Label(self.window, textvariable=self.temps, font=("Courrier",10), bg="#86FF84", fg="#000")
         self.seconde.place(x= 20,y= 20)
 
-        self.reponse = tk.Label(self.window, textvariable=self.infovar, font=("Courrier", 15), bg="#000", fg="#fff")
+        self.reponse = tk.Label(self.window, textvariable=self.infovar, font=("Courrier", 15), bg="#86FF84", fg="#000")
         self.reponse.place(x= 240,y= 260)
 
             
